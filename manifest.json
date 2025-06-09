@@ -1,0 +1,16 @@
+
+{
+  "name": "Lexterra: Compliance Game",
+  "short_name": "Lexterra",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4a148c",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2666/2666494.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lexterra: Chronicles of Compliance</title>
+  <link rel="manifest" href="manifest.json" />
+  <script defer src="game.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="login-screen" id="loginScreen">
+    <h2>Welcome to Lexterra</h2>
+    <input type="text" id="playerName" placeholder="Enter your name" />
+    <button onclick="startGame()">Start</button>
+  </div>
+
+  <div id="gameScreen" class="hidden">
+    <header>
+      <h1>Lexterra: Chronicles of Compliance</h1>
+      <p id="greeting"></p>
+      <p id="xpDisplay">XP: 0</p>
+    </header>
+
+    <main id="levelContainer"></main>
+  </div>
+</body>
+</html>
